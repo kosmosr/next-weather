@@ -72,7 +72,7 @@ const WeeklyForecast = () => {
       {forecasts.length > 5 && (
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="flex items-center justify-center w-full mt-1.5 mb-1.5 py-1.5 text-white/80 hover:text-white transition-colors"
+          className="flex items-center justify-center w-full mt-2 py-2 text-white/80 hover:text-white transition-colors"
         >
           {isExpanded ? (
             <div className="flex items-center gap-1">
