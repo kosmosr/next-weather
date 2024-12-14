@@ -1,8 +1,5 @@
-import { ChevronDown, ChevronUp, MapPin, Sun, Thermometer, Waves, Wind } from 'lucide-react'
-import {
-  dynamicHourlyForecast as HourlyForecast,
-  dynamicWeeklyForecast as WeeklyForecast
-} from '@/app/dynamic'
+import { ChevronDown, ChevronUp, MapPin, Sun } from 'lucide-react'
+import { dynamicHourlyForecast as HourlyForecast, dynamicWeeklyForecast as WeeklyForecast } from '@/app/dynamic'
 import WeatherMetrics from '@/components/weather/weatherMetrics'
 
 export default function Home() {
