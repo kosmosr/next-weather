@@ -36,7 +36,6 @@ const WeeklyForecast = () => {
     const totalWidth = MAX_TEMP - MIN_TEMP
 
     // Calculate positions
-    const rangeStart = ((minTemp - MIN_TEMP) / totalWidth) * 100
     const rangeWidth = ((maxTemp - minTemp) / totalWidth)
 
     return (
