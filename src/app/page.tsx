@@ -1,6 +1,7 @@
 import { ChevronDown, ChevronUp, MapPin, Sun } from 'lucide-react'
 import { dynamicHourlyForecast as HourlyForecast, dynamicWeeklyForecast as WeeklyForecast } from '@/app/dynamic'
 import WeatherMetrics from '@/components/weather/weatherMetrics'
+import { LifeIndex } from '@/components/weather/lifeIndex'
 
 export default function Home() {
   /*return (
@@ -139,6 +140,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-2">
         <span className="text-white/80">生活指数</span>
+        <LifeIndex />
       </div>
     </div>
   )
